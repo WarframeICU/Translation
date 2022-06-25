@@ -1,0 +1,399 @@
+afrux-forum-widgets-core:
+    admin:
+        cache_not_writable_warning: '缓存当前不可写，这将阻止某些小部件工作。 请修复您的存储目录的权限。'
+afrux-online-users-widget:
+    forum:
+        widget:
+            title: 在线仓鼠
+antoinefr-money:
+    admin:
+        automoderator:
+            action_name: 给钱
+            metric_name: 钱
+askvortsov-categories:
+    forum:
+        meta:
+            categories_title: 分类
+askvortsov-moderator-warnings:
+    forum:
+        warning_list:
+            no-warnings: 暂无警告。
+        warning_modal:
+            dismiss_button: 完成
+            no_content_given: 内容不可留空
+blomstra-flag-duplicates:
+    admin:
+        settings:
+            event_post_help: 在讨论中创建一个“重复”标志的事件帖子。这可以告知用户，讨论可能是另一个讨论的重复，而不允许他们访问已提出的整体标志。
+            event_post_label: 活动帖子
+    forum:
+        flags:
+            deselect_discussion_a11y_label: 取消选择讨论
+            duplicate_discussion: 重复讨论
+            reason_discussion_deleted: '[deleted discussion]'
+            reason_duplicate_label: 重复讨论
+            reason_duplicate_text: 这个讨论是另一个的重复。
+        post_stream:
+            deleted_discussion: '[deleted discussion]'
+            flagged_duplicate_text: '{username} 将此讨论标记为可能与 {duplicate} 重复。 主持人将很快进行调查。'
+            not_found: 未找到
+clarkwinkelmann-author-change:
+    admin:
+        permissions:
+            edit: 更改主题及回复作者
+    forum:
+        modal:
+            search_placeholder: 搜寻用户
+clarkwinkelmann-emojionearea:
+    admin:
+        settings:
+            hideFlarumButtonHelp: 这个扩充套件必须启用emoji扩充套件后才会生效
+            title: 表情设置
+clarkwinkelmann-passwordless:
+    admin:
+        settings:
+            title: 无密码登录设置
+clarkwinkelmann-status:
+    admin:
+        settings:
+            title: 状态设置
+clarkwinkelmann-who-read:
+    admin:
+        permissions:
+            heading: 已读状态
+        settings:
+            title: 已读状态设置
+core:
+    admin:
+        add_extension:
+            developer_text: 如果你是开发者，你可以<a>阅读文档</a>并自行开发延伸套件。
+            install_text: 在此期间你可以造访<a>Flarum社群</a>搜寻延伸套件，并通过Composer手动安装。
+            temporary_text: 终有一天，在不远的将来，此对话框将让你轻松地新增延伸套件。如我们所说，我们将建立一套生态系统！
+            title: 新增延伸套件
+        appearance:
+            submit_button: 储存更改
+        basics:
+            saved_message: 更改已储存
+            submit_button: 储存更改
+        email:
+            encryption_label: 加密
+            heading: 邮箱
+            mail_mandrill_secret_label: 'Secret key'
+            mail_ses_key_label: Key
+            mail_ses_region_label: 地区
+            mail_ses_secret_label: Secret
+            mandrill_heading: 'Mandrill 设置'
+            ses_heading: 'SES 设置'
+            submit_button: 储存更改
+            text: 配置用于发信的驱动、设置及地址。
+        extensions:
+            add_button: 新增延伸套件
+            settings_button: 设置
+            uninstall_button: 移除
+        nav:
+            appearance_text: 客制化论坛色调、徽标以及其他元素
+            basics_text: 设定论坛名称、语言以及其他基本设定
+            dashboard_text: 论坛数据综览
+            email_text: 配置论坛邮箱设定。
+            extensions_button: 延伸套件
+            extensions_text: 为你的论坛新增额外功能
+            permissions_text: 设定会员访问及操作权限
+        permissions:
+            view_discussions_label: 查看贴文
+            view_user_list_label: 查看会员列表
+    forum:
+        edit_user:
+            activate_button: 激活会员
+            email_heading: 邮箱
+            email_label: 邮箱
+            groups_heading: 群组
+            password_heading: 密码
+            password_label: 密码
+            set_password_label: 设置新密码
+            submit_button: 储存更改
+            title: 编辑会员
+            username_heading: 会员
+            username_label: 会员
+    lib:
+        alert:
+            dismiss_a11y_label: 解除警报
+        error:
+            extension_initialiation_failed_message: '{extension} 未能初始化，请检查浏览器控制台以获取更多信息。'
+        number_suffix:
+            ten_kilo_text: 万
+    ref:
+        icon_label: 图示
+datlechin-usercard-uid:
+    forum:
+        uid_text: 'UID: {uid}'
+flarum-akismet:
+    admin:
+        akismet_settings:
+            delete_blatant_spam_help: '如果 Akismet 确定评论是公然垃圾邮件，而不是标记，自动删除帖子'
+            delete_blatant_spam_label: 自动删除公然垃圾邮件
+        permissions:
+            bypass_akismet: '绕过 Akismet'
+flarum-flags:
+    forum:
+        flag_post:
+            reason_duplicate_label: 复制
+flarum-markdown:
+    lib:
+        composer:
+            bold_tooltip: 添加粗体文本
+            code_tooltip: 插入代码
+            header_tooltip: 添加标题文本
+            image_tooltip: 添加图像
+            italic_tooltip: 添加斜体文本
+            link_tooltip: 添加链接
+            ordered_list_tooltip: 添加编号列表
+            quote_tooltip: 插入引用
+flarum-tags:
+    admin:
+        tags:
+            create_tag_button: 新增标签
+            settings_button: 设置
+    forum:
+        choose_tags:
+            bypass_requirements: 绕过标签要求
+    ref:
+        create_tag: 新增标签
+fof-ban-ips:
+    admin:
+        nav:
+            desc: 新增、移除、查看封禁IP地址
+            title: 封禁IP
+fof-best-answer:
+    admin:
+        settings:
+            title: FoF最佳回复
+    forum:
+        notification:
+            awarded_email: 您的回复被选为最佳回复
+            preferences:
+                select_best_answer: 在我开始的讨论中自动提醒选择最佳答案
+            select_email_title: 您的问题解决了吗？
+        user:
+            best-answer-count: '{count, plural, one { {count} 最佳回复} other {{count} 最佳回复}}'
+fof-drafts:
+    forum:
+        composer:
+            alert: 草稿已储存
+        dropdown:
+            button: 删除草稿
+fof-follow-tags:
+    email:
+        newDiscussionInTag: '[节点|新贴文]标题'
+        newPostInTag: '[节点|新回复]标题'
+fof-gamification:
+    admin:
+        nav:
+            desc: 增强Flarum论坛游戏性
+        permissions:
+            downvote_notifications: 接收反对票通知
+            upvote_notifications: 接收点赞通知
+    forum:
+        modal:
+            downvotes_label: 踩
+        nav:
+            name: 获赞排名
+        ranking:
+            amount: 获赞
+        user:
+            card:
+                points: '{count, plural, one { {count} 获赞} other {{count} 获赞}}'
+fof-html-errors:
+    admin:
+        settings:
+            title: 客制HTML错误页面
+fof-linguist:
+    admin:
+        filters:
+            for-extension-unavailable: '名称空间「{namespace}」找不到翻译。这个延伸套件可能没有需要翻译的文本，或者使用了另一个名称空间。尝试透过搜寻来定位翻译。'
+            with-original-translations-in-locales: 带有原文翻译于
+            without-original-translations-in-locales: 不带原文翻译于
+        menu:
+            description: 自定义翻译
+            title: 语言学家
+fof-links:
+    admin:
+        links:
+            about_text: 管理主菜单连接
+        nav:
+            links_button: 连接
+            links_text: 管理主导航项目
+fof-merge-discussions:
+    admin:
+        settings:
+            search_result_help: '在“合并讨论”模式中搜索时应返回多少讨论。 默认值为 4'
+            search_result_label: 合并讨论搜索限制
+    api:
+        error:
+            fixing_posts_number_meta_failed: 无法修复帖子编号。
+    email:
+        merged:
+            body: "嘿{recipient_display_name}，\n\n您的讨论 {merged_discussion_title} 已被 {actor_display_name} 合并到 {discussion_title}。\n\n在此处查看 {discussion_url} 。"
+            subject: '您的讨论“{merged_discussion_title}”已合并'
+    forum:
+        modal:
+            ordering_date_help: 结果讨论中的帖子按其各自的创建日期重新排序
+            ordering_date_label: 按创建日期合并帖子
+            ordering_heading: 合并排序
+            ordering_suffix_help: 合并到尚存讨论中的帖子将在讨论结束时附加
+            ordering_suffix_label: 将合并的帖子添加到讨论的末尾
+            type_heading: 合并类型
+        notification:
+            discussion_merged: '您的讨论 <b>{oldTitle}</b> 已被 {username} 合并到此讨论中。'
+            preferences:
+                discussion_merged: 有人把我的讨论和另一个合并了
+fof-moderator-notes:
+    forum:
+        moderatorNotes:
+            confirmation_message: 备注已储存，你可能需要重新加载页面才能看到。
+            no_content_given: 备注不可为空。
+fof-nightmode:
+    forum:
+        header:
+            nightmode_button: 切换论坛主题
+fof-pages:
+    admin:
+        nav:
+            pages_button: 页面
+            pages_text: 新增自定义静态页面
+        pages:
+            about_text: 新增及管理静态页面
+fof-reactions:
+    admin:
+        nav:
+            desc: 新增自定义响应及更改设定
+fof-secure-https:
+    admin:
+        settings:
+            title: 设置
+fof-share-social:
+    admin:
+        settings:
+            title: 'FoF 社群分享'
+fof-subscribed:
+    admin:
+        permission:
+            subscribe_to_post_created: 允许接收有关新帖子或回复的通知
+            subscribe_to_post_flagged: 允许接收有关新标志的通知
+    email:
+        body:
+            postCreated: "嘿{recipient_display_name}，\n\n{actor_display_name} 刚刚在 {discussion_title} 中创建了一个新帖子\n\n要查看此新帖子，请查看以下链接：\n{post_url}\n\n---\n\n{post_content}"
+            postFlagged: "嘿{recipient display_name}，\n{actor display_name} 刚刚在 {discussion title} 中标记了一个帖子\n要查看这篇文章，请查看以下链接：\n{post_url}"
+        subject:
+            postCreated: '[订阅 | 新帖子] {username} 在 {title} 中写了一个新帖子'
+            postFlagged: '[订阅 | 新标记] {username} 标记了 {title} 中的帖子'
+    forum:
+        notifications:
+            post_created_text: '{username} 写了一个新帖子'
+            post_flagged_text: '{username} 标记了一个帖子'
+        settings:
+            notify_post_created_label: 有人创建了一个新帖子或回复
+            notify_post_flagged_label: 有人在帖子上创建了一个新的标志
+fof-user-directory:
+    admin:
+        settings:
+            title: 会员名录设定
+    forum:
+        page:
+            nav: 仓鼠名录
+            sort:
+                default: 预设
+                least_discussions: 最少贴文
+                least_posts: 最少回复
+                most_discussions: 最多贴文
+                most_posts: 最多回复
+                newest: 最新
+                oldest: 最老
+                relevance: 相关度
+                seen_oldest: 离开最久
+                seen_recent: 最近上线
+                username_az: 用户名（a-z）
+                username_za: 用户名（a-z）
+fof-username-request:
+    admin:
+        permissions:
+            moderate: 同意变更用户名
+            start: 申请更改用户名
+    forum:
+        account_label: 更改用户名
+        action:
+            approval_label: 同意
+            decision_title: 决定
+            help_text: 确认用户名遵循论坛规则
+            name: '{username}申请变更用户名为「{newUsername}」'
+            reason_title: 拒绝原因
+            rejected_label: 拒绝
+            submit_button: 提交
+            success: 决定已传送
+            title: 更改用户名
+        dropdown:
+            empty_text: 暂无申请
+            exerpt: '申请变更用户名为：{requestedUsername}'
+            item_text: '{username}申请变更用户名'
+            title: 用户名变更申请
+            tooltip: 用户名变更申请
+        profile_link: 用户名历史
+        request:
+            confirmation_message: 您的申请已收到并将在稍后进行审核。
+            current_request: '您已申请变更用户名为「{username}」，您可以更新或删除该申请。'
+            delete_button: 删除申请
+            deleted: 申请已删除。
+            dismiss_button: 明白
+            submit_button: 提交申请
+            title: 申请变更用户名
+        results:
+            approved: 你的变更用户名的申请已通过！
+            new_username: '您的用户名已变更为「{username}」'
+            reason: '拒绝原因：<i>“{reason}”</i>'
+            rejected: 您的变更用户名申请已遭拒。
+            resubmit: 您可以重新提交一个新的用户名。
+            title: 变更用户名
+ianm-follow-users:
+    admin:
+        settings:
+            button-on-profile-label: 直接在用户配置文件标题上显示“关注”按钮
+justoverclock-thread-read-time:
+    forum:
+        ofThread: 的内容
+        reading: 你已经阅读了
+nearata-twofactor:
+    forum:
+        setup_modal:
+            enabled: 两步验证已启用。
+serakoi-flarumstaffbadge:
+    admin:
+        staffBadge:
+            help: 员工徽章文本（默认为“STAFF”）
+            label: 员工徽章文本
+        staffBadgeTextBg:
+            help: '徽章颜色（默认为 ''rgb(70, 209, 96)''）'
+            label: 员工徽章背景颜色
+        staffBadgeTextColor:
+            help: '徽章颜色（默认为“#fff”）'
+            label: 员工徽章颜色
+    forum:
+        edit_user:
+            heading: 员工徽章启用
+            placeholder: 将输入设置为“true”以激活徽章
+            tagList:
+                heading: 用户标签列表
+                placeholder: '使用,分开标签'
+swaggymacro:
+    admin:
+        setting_only_starter: 只有楼主
+    forum:
+        blog_article_author: 作者
+        only_starter: 只看楼主
+        topic_starter: 原作者
+validation:
+    custom:
+        username:
+            regex: 使用者名称仅能包含字母、数字、短划线
+    recaptcha: 'reCAPTCHA 验证失败。'
+zerosonesfun-up:
+    admin:
+        my_cool_key: 我的Cool钥匙
